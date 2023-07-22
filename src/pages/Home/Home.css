@@ -1,0 +1,49 @@
+.links-page__container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: .2rem 2.5rem;
+}
+
+.user-links__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.save-users-links__btn {
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    font-weight: bold;
+    color: white;
+    padding: .6rem .5rem;
+    font-size: .9em;
+    transition: .5s;
+}
+
+.save-users-links__btn:disabled {
+    cursor: not-allowed;
+    opacity: .7;
+}
+
+.save-users-links__btn:not(:disabled):hover {
+    color: var(--primary-color);
+    background-color: white;
+    transition-duration: .5s;
+}
+
+.links-page__container .row .col-xs-12 {
+    align-self: stretch;
+}
+
+@media screen and (max-width: 992px) {
+    .links-page__container {
+        padding: 1rem;
+    }
+}

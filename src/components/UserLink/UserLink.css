@@ -1,0 +1,9 @@
+.user-link {
+    padding: .6rem 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    color: white;
+}

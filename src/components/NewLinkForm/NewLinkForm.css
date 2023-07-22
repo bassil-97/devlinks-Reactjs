@@ -1,0 +1,52 @@
+.new-link-form__container {
+    width: 100%;
+    background-color: #fafafa !important;
+    border-radius: 12px !important;
+    border: none;
+}
+
+.new-link-form__container .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .4rem 1rem;
+}
+ 
+.new-link-form__container .accordion-header small {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.new-link-form__container .accordion-header small:hover {
+    opacity: .5;
+    transition-duration: .5s;
+}
+
+.accordion-button {
+    padding-left: 8px;
+}
+
+.accordion-button:focus, .accordion-button {
+    background-color: #fafafa !important;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    background-image: none !important;
+}
+
+.new-link-form__container .accordion-header small {
+    font-size: .9rem;
+}
+
+.new-link-form__container .accordion-body label {
+    font-size: .8rem;
+}
+
+@media screen and (max-width: 992px) {
+    .new-link-form__container .accordion-header {
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+}

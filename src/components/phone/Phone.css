@@ -1,0 +1,22 @@
+.phone-container {
+    width: 17rem;
+    height: 500px;
+    border: 2px solid gray;
+    border-radius: 45px;
+    padding: 1.5rem;
+    padding-block-start: 2.5rem;
+}
+
+.phone-container .user-links__list, .phone-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.phone-container .user-avatar img {
+    outline: 4px solid var(--primary-color);
+    border-radius: 50%;
+    padding: .2rem;
+    background-color: rgba(235, 235, 235, 0.288);
+}
